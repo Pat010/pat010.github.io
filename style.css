@@ -1,54 +1,51 @@
 body,
 html {
   width: 100%;
-  height: 100%; 
+  height: 100%;
+  margin: 0px;
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
-}
-
-.faded {
-  color: rgba(88, 52, 23, 0.7); 
-}
-
-header.startup {
-	background-image: url("Images/1103.jpg");
-	background-size: cover;
-	background-position: center;
-	height: 100%;
-}
-
-header.startup h1 {
-	font-size: 2.5rem;
-	line-height: 200%;
-}
-
-header.startup hr {
-	margin-top: 10%;
-	margin-right: -10%; 
-	margin-bottom: 5%;
-	margin-left: -10%;
-	border-color: rgba(135, 79, 36, 0.7);
-}
-
-.btn {
-	border-radius: 300px;
 	font-family: 'Montserrat', sans-serif;
 }
-
-.btn-xl {
-  padding: 1rem 1.5rem; 
+h1{
+	color:white;
+	font-size: 	3em;
+	margin-bottom: 	200px;
 }
 
-.btn-primary {
-  background-color: rgba(135, 79, 36, 0.4);
-  border-color: rgba(135, 79, 36, 0.4); 
+.container{
+	background-image: url("header.jpg");
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: 	wrap;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 
-.btn-primary:hover {
-  background-color: rgba(135, 79, 36, 0.7);
-  border-color: rgba(135, 79, 36, 0.7);
-  border-width: 2px;
-  cursor: pointer;
+.buttonbox{
+	border-top: 4px solid orange;
+	padding-top: 25px;
+	margin-bottom: 	30px;
+	width: 50px;
+}
+
+.btn-warning {
+	height: 40px;
+	width: 100px;
+	border:2px solid white;
+	transition: all 1s;
+	border-radius: 	20px;
+	display:flex;
+	flex-wrap: wrap;
+}
+
+.btn-warning:hover {
+	transform: 	scale(1.5);	
+	border:2px solid red;
 }
